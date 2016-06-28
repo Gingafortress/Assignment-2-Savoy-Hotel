@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+	<title>Booking Page</title>
+	<meta charset="utf-8">
+ 	<meta name="description" content="Where you apply for a reservation for a room at the Savoy Hotel.">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div id="header-top" class="clearfix">
+				<img src="images/logo.png" id="logo" alt="Savoy Hotels logo">
+				<a href="booking.html" id="booking">BOOK</a>
+				<div id="social-icons">
+					<a href="http://www.facebook.com"><img src="images/icons/facebook.png" alt="Facebook icon"></a>	
+					<a href="http://www.twitter.com"><img src="images/icons/twitter.png" alt="twitter icon"></a>	
+					<a href="http://www.googleplus.com"><img src="images/icons/google+.png" alt="google plus icon"></a>	
+					<a href="http://www.tripadvisor.com"><img src="images/icons/tripadvisor.png" alt="tripadvisor icon"></a>
+				</div>
+			</div>
+			<div id="image-background">
+				<div id="image" class="clearfix">
+				<!-- css image for shadowing -->
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="rooms.html">ROOMS</a></li>
+					<li><a href="restaurant.html">RESTAURANT</a></li>
+					<li><a href="facilities.html">FACILITIES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</nav>
+		</header>
+		<h1>Make a Booking</h1>
+		<br>
+		<main class="clearfix">	
+			<form method="POST" action="http://brettt.yoobee.net.nz/formtest/"  id="contact-form" novalidate>
+				<div class="clearfix">
+					<div class="form-group">
+						<label>Check In</label>
+						<div class="check">
+							<select id="checkin-day" required>
+								<option value="">&nbsp;</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+								<option>13</option>
+								<option>14</option>
+								<option>15</option>
+								<option>16</option>
+								<option>17</option>
+								<option>18</option>
+								<option>19</option>
+								<option>20</option>
+								<option>21</option>
+								<option>22</option>
+								<option>23</option>
+								<option>24</option>
+								<option>25</option>
+								<option>26</option>
+								<option>27</option>
+								<option>28</option>
+								<option>29</option>
+								<option>30</option>
+								<option>31</option>
+							</select>
+							<label for="checkin-day">Day</label>
+							<span id="checkin-day-error"></span>
+						</div>
+						<div class="check">
+							<select id="checkin-month" required>
+								<option value="">&nbsp;</option>
+								<option value="1">January</option>
+								<option value="2">February</option>
+								<option value="3">March</option>
+								<option value="4">April</option>
+								<option value="5">May</option>
+								<option value="6">June</option>
+								<option value="7">July</option>
+								<option value="8">August</option>
+								<option value="9">September</option>
+								<option value="10">October</option>
+								<option value="11">November</option>
+								<option value="12">December</option>
+							</select>
+							<label for="checkin-month">Month</label>
+							<span id="checkin-month-error"></span>
+						</div>
+						<div class="check">
+							<select id="checkin-year" required>
+								<option value="">&nbsp;</option>
+								<option>2015</option>
+								<option>2016</option>
+								<option>2017</option>
+								<option>2018</option>
+							</select>
+							<label for="checkin-year">Year</label>
+							<span id="checkin-year-error"></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label>Check Out</label>
+						<div class="check">
+							<select id="checkout-day" required>
+								<option value="">&nbsp;</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+								<option>13</option>
+								<option>14</option>
+								<option>15</option>
+								<option>16</option>
+								<option>17</option>
+								<option>18</option>
+								<option>19</option>
+								<option>20</option>
+								<option>21</option>
+								<option>22</option>
+								<option>23</option>
+								<option>24</option>
+								<option>25</option>
+								<option>26</option>
+								<option>27</option>
+								<option>28</option>
+								<option>29</option>
+								<option>30</option>
+								<option>31</option>
+							</select>
+							<label for="checkout-day">Day</label>
+							<span id="checkout-day-error"></span>
+						</div>
+						<div class="check">
+							<select id="checkout-month" required>
+								<option value="">&nbsp;</option>
+								<option value="1">January</option>
+								<option value="2">February</option>
+								<option value="3">March</option>
+								<option value="4">April</option>
+								<option value="5">May</option>
+								<option value="6">June</option>
+								<option value="7">July</option>
+								<option value="8">August</option>
+								<option value="9">September</option>
+								<option value="10">October</option>
+								<option value="11">November</option>
+								<option value="12">December</option>
+							</select>
+							<label for="checkout-month">Month</label>
+							<span id="checkout-month-error"></span>
+						</div>
+						<div class="check">
+							<select id="checkout-year" required>
+								<option value="">&nbsp;</option>
+								<option>2015</option>
+								<option>2016</option>
+								<option>2017</option>
+								<option>2018</option>
+							</select>
+							<label for="checkout-year">Year</label>
+							<span id="checkout-year-error"></span>
+						</div>
+						<span id="checkout-error"></span>
+					</div>
+					<div class="form-group">
+						<label for="country">Country</label>
+						<select name="country" id="country"  required>
+							<option value="">Select A Country</option>
+						<optgroup label="Europe/Middle East/North Africa">
+							<option>Austria</option>
+							<option>Barcelona</option>
+							<option>Belgium</option>
+							<option>Denmark</option>
+							<option>Finland</option>
+							<option>Germany</option>
+							<option>Ireland</option>
+							<option>Italy</option>
+							<option>Madrid</option>
+							<option>Netherlands</option>
+							<option>Norway</option>
+							<option>Portugal</option>
+							<option>Sweden</option>
+							<option>Switzerland</option>
+							<option>France</option>
+							<option>United Kingdom</option>
+						<optgroup label="Asia Pacific">
+							<option>Hong Kong</option>
+							<option>Japan</option>
+							<option>Singapore</option>
+							<option>Thailand</option>
+							<option>Beijing</option>
+						<optgroup label="Oceania">
+							<option>Australia</option>
+							<option>New Zealand</option>
+						<optgroup label="North America">
+							<option>Canada</option>
+							<option>Puerto Rico</option>
+							<option>United States of America</option>
+							<option>US Virgin Islands</option>
+						<optgroup label="South America">
+							<option>Brazil (Saopaulo)</option>
+							<option>Chile</option>
+							<option>Colombia</option>
+							<option>Mexico</option>
+							<option>Venezuela</option>
+						</select>
+						<span id="country-error"></span>
+					</div>
+				</div>
+				<div class="clearfix">	
+					<div class="clearfix">
+						<div class="booking-room-img">
+							<img src="images/rooms/standard-room.jpg" alt="standard room image choice">
+						</div>	
+						<div class="booking-room-img">
+							<img src="images/rooms/superior-room.jpg" alt="superior room image choice">
+						</div>
+						<div class="booking-room-img">
+							<img src="images/rooms/penthouse-room.jpg" alt="penthouse suite image choice">
+						</div>
+					</div>
+					<div class="form-group">
+						<input type="radio" name="room" value="standard-room" id="standard-room" class="room-label" checked optional>
+						<label for="standard-room" class="room-label">Standard Room</label>
+						<span id="standard-room-error"></span>
+					</div>
+					<div class="form-group">
+						<input type="radio" name="room" value="superior-room" id="superior-room" class="room-label" optional>
+						<label for="superior-room" class="room-label">Superior Room</label>
+						<span id="superior-room-error"></span>
+					</div>
+					<div class="form-group">
+						<input type="radio" name="room" value="penthouse-room" id="penthouse-room" class="room-label" optional>
+						<label for="penthouse-room" class="room-label">Penthouse Suite</label>
+						<span id="penthouse-room-error"></span>
+					</div>
+					<div class="form-group">
+						<label for="adult-number">Adults</label>
+						<select id="adult-number" required>
+							<option value="">&nbsp;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+						</select>
+						<span id="adult-number-error"></span>
+					</div>
+					<div class="form-group">
+						<label for="children-number">Children</label>
+						<select id="children-number" required>
+							<option value="">&nbsp;</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+						</select>
+						<span id="children-number-error"></span>
+					</div>
+				</div>	
+				<div class="cleafix">
+					<div class="form-group">
+						<label for="firstname">First Name</label>
+						<input id="firstname" name="firstname" type="text" required class="fv-minlength-2">
+						<span id="firstname-error"></span>
+					</div>
+					<div class="form-group">
+						<label for="lastname">Last Name</label>
+						<input id="lastname" name="lastname" type="text" required class="fv-minlength-2">
+						<span id="lastname-error"></span>
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="email" required>
+						<span id="email-error"></span>
+					</div>
+				</div>
+				<div class="clearfix">
+					<div class="form-group">
+						<label for="message">Special Needs/Requests</label>
+						<textarea id="message" name="message" rows="5" cols="40"></textarea>
+						<span id="message-error"></span>
+					</div>
+					<div class="form-group">
+						<label for="agree">
+							<br>
+							<input id="agree" name="agree" type="checkbox" required>
+							I agree to the <a href="terms-and-conditions.html" id="tac">Terms and Conditions.</a>
+						</label>
+						<span id="agree-error"></span>
+					</div>
+					<div class="form-group">
+						<input id="submit-button" type="submit" value="Confirm Booking">
+					</div>
+				</div>	
+			</form>
+		</div>
+		<footer>
+			<p>Follow us on Facebook and Twitter</p>
+			<p>Australia 1 800 147 803, New Zealand 0800 782 548</p>
+			<ul id="footer-nav">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="rooms.html">ROOMS</a></li>
+				<li><a href="restaurant.html">RESTAURANT</a></li>
+				<li><a href="facilities.html">FACILITIES</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<li><a href="booking.html">BOOKING</a></li>
+				<li><a href="site-map.html">SITE MAP</a></li>
+			</ul>
+			<p><a href="terms-and-conditions.html">Terms and Conditions</a></p>
+			<p>&copy; Copyright Savoy Hotels. All rights reserved</p>
+			<div id="business-logo">
+				<p>Website by:</p>
+				<img src="images/sharperdesigns-logo.jpg" alt="Sharper Designs Logo Link">
+			</div>
+		</footer>
+	</main>
+	<script src="js/form-validation-kit.js"></script>
+	<script> 
+	document.addEventListener("DOMContentLoaded", function() {
+
+	var contactForm = document.querySelector("#contact-form");
+
+	addFormValidation(contactForm);
+	});
+	</script>
+</body>
+</html>

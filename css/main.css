@@ -1,0 +1,364 @@
+body {
+	width:980px ;
+	margin:0 auto;
+	font-family:avenir, sans-serif;
+	color:#040419;
+	text-align:center;
+}
+.container, #container {
+	background-color:white;
+	box-shadow: 0px 0px 6px 2px #888888;
+}
+/*Header Begins*/
+#header-top {
+	padding:20px;
+	width:940px;
+	height:84px;
+}
+#logo {
+	float:left;
+}
+#social-icons{
+	float:right;
+	padding:20px;
+	width:300px;
+}
+#social-icons a{
+	padding-right:20px;
+}
+#booking{
+	float:right;
+	background-color:#46948c;
+	text-decoration:none;
+	color:white;
+	font-size:30px;
+	width:140px;
+	height:75px;
+	text-align:center;
+	line-height: 75px;
+	margin-top:5px;
+	text-shadow: 2px 2px 5px black;
+	box-shadow: 2px 2px 5px #888888;
+}
+#booking:hover{
+	background-color: #95d0ab;
+}
+#booking:focus{
+	background-color:#bbe5a0;
+}
+
+#image-background {
+	background-color:black;
+}
+#image {
+	margin:0 auto;
+	height:420px ;
+	width: 790px;
+	background: url(../images/homeimage1.png);
+	box-shadow: inset 0px 0px 40px 40px rgba(0,0,0,0.95);
+}
+nav ul{
+	list-style:none;
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+nav li,
+nav li a{
+	display: inline-block;
+	text-decoration: none;
+	color:black;
+	font-size:25px;
+	padding:10px 18px;
+}
+nav li a:hover{
+	color:#46948c;
+	/*text-shadow: 2px 2px 3px black;*/
+}
+nav li a:focus{
+	color:#95d0ab;
+}
+/*Header Nav ends*/
+/*Main Body*/
+
+
+#main{
+	margin:0 auto;
+	margin-bottom:40px;
+}
+
+#welcome, #restaurant, .facilities, .tac{
+	width: 720px;
+	margin:30px auto;
+}
+
+.rooms{
+	width: 300px;
+	margin:10px auto;
+	text-align:left;
+	font-size:14px;
+}
+.info {
+	text-align: left;
+	box-sizing:border-box;
+	margin:0 10px;
+}
+.third .info {
+	font-size:14px;
+}
+
+.third,#third {
+	box-sizing:border-box;
+	float:left;
+	margin-left:20px;
+	margin-top:30px;
+	width:300px;
+	
+}
+.third img {
+	box-shadow: 2px 2px 5px #888888;
+}
+
+
+h1, h2, h3, h4 {
+	font-weight:lighter;
+}
+h1 {
+	margin: 0 auto;
+}
+h2 {
+	margin: 10px auto;
+}
+h3 {
+	margin: 10px auto;
+}
+.product a{
+	text-decoration: none;
+	color:black;
+}
+.product a:hover{
+	color:#46948c;
+}
+.product a:focus{
+	color:#95d0ab;
+}
+
+
+/*Rooms*/
+.reservation{
+	background-color:white;
+	font-size:16pt;
+	font-weight:lighter;
+	border: solid  2px #95d0ab;
+	border-radius: 3px;
+	color:#46948c;
+	float:left;
+	margin-left:20px;
+	padding:5px;
+	text-decoration: none;
+}
+
+/***************************Restaurant****************************/
+.restaurant-info{
+	text-align:center;
+}
+/***************************Restaurant Ends****************************/
+/****************************Facilities****************************/
+.third-info, #other-services{
+	font-size:14px;
+}
+.third-info h3, #other-services h3 {
+	margin:0 auto;
+}
+.third-info p {
+	margin: 5px;
+	text-align:left;
+}
+.third-info{
+	box-sizing:border-box;
+	float:left;
+	margin-left:20px;
+	margin-top:10px;
+	width:300px;
+}
+#other-services  ul{
+	list-style:none;
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+#other-services li {
+	text-decoration: none;
+	color:black;
+}
+/***************************Facilities Ends****************************/
+/****************************Booking Starts****************************/
+
+.form-group {
+	margin-top:10px;
+	margin-left: 20px;
+	position: relative;
+	width: 300px;
+	padding:5px;
+	/*background-color: #f06d06;*/
+	box-sizing: border-box;
+	float:left;
+	text-align:left;
+}
+.booking-room-img {
+	/*box-sizing:border-box;*/
+	float:left;
+	margin-left:20px;
+	margin-top:10px;
+	width:300px;
+	/*box-shadow: 2px 2px 5px #888888;*/
+}
+.room-label{
+	display:inline;
+	float:left;
+	margin:0;
+	padding:0;
+}
+.form-group label{
+	display:block;
+	padding:0px 5px;
+}
+.check{
+	font-size:10pt;
+	display:inline;
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+}
+#tac{
+	text-decoration:none;
+}
+#agree{
+	
+}
+#checkin-day, #checkin-month, #checkin-year, #checkout-day, #checkout-month, #checkout-year, #country, #adult-number, #children-number{
+	border: 2px inset #46948c;
+	border-radius: 3px;
+
+}
+.form-group input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="reset"]):not([type="button"]) {
+	font-size: 14px;
+	padding: .5em;
+}
+.form-group textarea {
+	font-size: 14px;
+}
+.form-group 
+    input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="reset"]):not([type="button"]),
+.form-group textarea { 
+	width: 100%;
+	box-sizing: border-box;
+	border: 2px inset #46948c;
+	border-radius: 3px;
+}
+.form-group 
+    input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="reset"]):not([type="button"]).invalid,
+.form-group textarea.invalid {
+	border: 2px outset #0a212b;
+	color: #0a212b;
+	background-color: #bbe5a0;
+}
+
+.danger {
+	background-color: #95d0ab;
+	color: #0a212b;
+	font-size: 0.8em;
+	padding: 0 .5em;
+	border-radius: 3px;
+}
+
+.form-group .danger {
+	display: block;
+	position: absolute;
+	top: 3px;
+	right: 0;
+}
+#submit-button{
+	margin:0 auto;
+}
+
+
+/********************************Main Ends********************************/
+
+/*******************************Contact********************************/
+.countries{
+	float:left;
+	
+	margin-left:20px;
+	margin-top:20px;
+	width:300px;
+}
+.europe{
+	width:100px;
+	float:left;
+	margin-left:25px;
+	margin-right:25px;	
+	box-sizing:border-box;
+
+}
+/*Footer Begins*/
+footer {
+	background-color:#46948c ;
+	text-align:center;
+	padding:20px 0px;
+	margin-top:20px;
+	color:white;
+	font-size:14px;
+}
+footer p {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+footer p a{
+	text-decoration:none;
+	color:white;
+}
+footer p a:hover{
+	color:#95d0ab;
+}
+#footer-nav  {
+	list-style:none;
+	margin: 0;
+	padding:10px 0;
+	box-sizing: border-box;
+}
+#footer-nav  li,
+#footer-nav  li a{
+	display: inline-block;
+	text-decoration: none;
+	font-size:18px;
+	padding:0 10px;
+	color:white;
+}
+#business-logo {
+	padding-top:10px;
+}
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:table;
+}
+.clearfix:after{
+	clear: both;
+}
+/***********************Site Map*****************/
+#site-map{
+	list-style:none;
+	text-align:left;
+	
+}
+/***********************media print*****************/
+@media print{
+	footer, header{
+		display:none;
+	}
+	.container, #container {
+	background-color:white;
+	box-shadow: 0px 0px 6px 2px #888888;
+}
+}
